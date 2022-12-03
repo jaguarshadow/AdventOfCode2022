@@ -1,7 +1,4 @@
-﻿using System.Collections.Concurrent;
-using System.Text.RegularExpressions;
-
-namespace Day03
+﻿namespace Day03
 {
     internal class Program
     {
