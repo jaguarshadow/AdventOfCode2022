@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\Day01\\Day01.csproj": {}
+    "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\AdventOfCode2022\\Day01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\Day01\\Day01.csproj": {
+    "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\AdventOfCode2022\\Day01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\Day01\\Day01.csproj",
+        "projectUniqueName": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\AdventOfCode2022\\Day01.csproj",
         "projectName": "Day01",
-        "projectPath": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\Day01\\Day01.csproj",
+        "projectPath": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\AdventOfCode2022\\Day01.csproj",
         "packagesPath": "C:\\Users\\starb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\Day01\\obj\\",
+        "outputPath": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\AdventOfCode2022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\starb\\AppData\\Roaming\\NuGet\\NuGet.Config",
