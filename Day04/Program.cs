@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Security.Cryptography;
-
-namespace Day04
+﻿namespace Day04
 {
     internal class Program
     {
@@ -20,20 +17,10 @@ namespace Day04
                 var sections = line.Split(new char[] { '-', ',' }).Select(x => int.Parse(x)).ToList();
                 var a1 = (start: sections[0], end: sections[1]);
                 var a2 = (start: sections[2], end: sections[3]);
-
-                var nooverlap = a1.end < a2.start || a2.end < a1.start;
-                if (nooverlap)
-                {
-                    Console.WriteLine($"{a1.start}-{a1.end}  ,  {a2.start}-{a2.end}, NO OVERLAP");
-                    continue;
-                }
-                Console.WriteLine($"{a1.start}-{a1.end}  ,  {a2.start}-{a2.end}, XXX");
+                if (a1.end < a2.start || a2.end < a1.start) continue;
                 partial_overlap++;
-
-                /*                if (a1.end < a2.start || a2.end < a1.start) continue; 
-                                partial_overlap++;
-                                if (a1.start >= a2.start && a2.end >= a1.end
-                                    || a2.start >= a1.start && a1.end >= a2.end) full_overlap++;*/
+                if (a1.start >= a2.start && a2.end >= a1.end
+                    || a2.start >= a1.start && a1.end >= a2.end) full_overlap++;
             }
             return (full_overlap, partial_overlap);
         }
