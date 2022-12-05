@@ -10,13 +10,6 @@ namespace Day05 {
 
         public class Inventory { 
             public List<CrateStack> Stacks { get; set; }
-
-            public void MoveCrates(int quantity, int startStack, int endStack, CraneModel model) {
-                var toMove = Stacks[startStack - 1].Crates.TakeLast(quantity);
-                Stacks[startStack - 1].Crates = Stacks[startStack - 1].Crates.SkipLast(quantity).ToList();
-                if (model == CraneModel.CrateMover9000) Stacks[endStack - 1].Crates.AddRange(toMove.Reverse());
-                else Stacks[endStack - 1].Crates.AddRange(toMove);
-            }
         
             static public Inventory Parse(IList<string> input) {
                 var columns = input.Last().Where(x => !char.IsWhiteSpace(x))
@@ -31,8 +24,7 @@ namespace Day05 {
                 return new Inventory() { Stacks = columns };
             }
 
-            public void ProcessMovements(IEnumerable<string> instructions, CraneModel model)
-            {
+            public void ProcessMovements(IEnumerable<string> instructions, CraneModel model) {
                 Regex regex = new Regex(@"move (?<quantity>\d+) from (?<from>\d+) to (?<to>\d)", RegexOptions.Compiled);
                 foreach (var line in instructions) {
                     var match = regex.Match(line);
@@ -42,11 +34,19 @@ namespace Day05 {
                     MoveCrates(quantity, from, to, model);
                 }
             }
+
+            public void MoveCrates(int quantity, int startStack, int endStack, CraneModel model) {
+                var toMove = Stacks[startStack - 1].Crates.TakeLast(quantity);
+                Stacks[startStack - 1].Crates = Stacks[startStack - 1].Crates.SkipLast(quantity).ToList();
+                if (model == CraneModel.CrateMover9000) Stacks[endStack - 1].Crates.AddRange(toMove.Reverse());
+                else Stacks[endStack - 1].Crates.AddRange(toMove);
+            }
         }
 
         public class CrateStack {
             public List<char> Crates { get; set; }
             public int Number    { get; set; }
+
             public CrateStack(int number, int index) {
                 Crates = new List<char>();
                 Number = number;
