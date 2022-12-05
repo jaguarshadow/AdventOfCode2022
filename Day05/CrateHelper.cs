@@ -15,7 +15,7 @@ namespace Day05 {
                 var columns = input.Last().Where(x => !char.IsWhiteSpace(x))
                     .Select((x, i) => new CrateStack(int.Parse(x.ToString()), i)).ToList();
                 for (int i = 0; i < input.Count - 1; i++){
-                    var craterow = input[i].Select((letter, index) => (letter, index: index)).Where(x => char.IsLetter(x.letter));
+                    var craterow = input[i].Select((letter, index) => (letter, index)).Where(x => char.IsLetter(x.letter));
                     foreach (var crate in craterow) {
                         var columnIndex = crate.index / 4;
                         columns[columnIndex].Crates.Insert(0, crate.letter);
