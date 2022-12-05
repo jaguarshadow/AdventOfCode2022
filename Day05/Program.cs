@@ -5,7 +5,7 @@ namespace Day05
     internal class Program
     {
         static void Main(string[] args) {
-            var crate_input = File.ReadLines(@"input.txt").TakeWhile(x => !x.StartsWith("move") && !string.IsNullOrEmpty(x)).ToList();
+            var crate_input = File.ReadLines(@"input.txt").TakeWhile(x => !string.IsNullOrEmpty(x)).ToList();
             var instructions = File.ReadLines(@"input.txt").Where(x => x.StartsWith("move")).ToList();
             Console.WriteLine($"Part 1: {GetTopCrates(crate_input, instructions, CraneModel.CrateMover9000)}");
             Console.WriteLine($"Part 2: {GetTopCrates(crate_input, instructions, CraneModel.CrateMover9001)}");
