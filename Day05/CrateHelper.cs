@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace Day05 {
     public static class CrateHelper {
