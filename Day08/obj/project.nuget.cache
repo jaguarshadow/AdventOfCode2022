@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YDGbNei/UwK1Dv+TFblZ5xz0hzIKQyU/LEJZnBm1YpW4du08mQ/GzaVZOptE4jelGj+s1G9wtoknWYZXeQoP+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\Day08\\Day08.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\starb\\.nuget\\packages\\communitytoolkit.highperformance\\8.0.0\\communitytoolkit.highperformance.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
