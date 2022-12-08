@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace Day07
+﻿namespace Day07
 {
     internal class Program
     {
