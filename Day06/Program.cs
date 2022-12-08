@@ -1,4 +1,8 @@
-﻿namespace Day06
+﻿using System.Diagnostics;
+using System.Globalization;
+using System.Reflection.Metadata.Ecma335;
+
+namespace Day06
 {
     internal class Program
     {
@@ -13,11 +17,11 @@
             Console.WriteLine($"Part 2: {FindDistinctMarker(input, message_length)}");
         }
 
-        static int FindDistinctMarker(string s, int length) {
-            for (int i = 0; i < s.Length - length; i++) {
-                if (s.Substring(i, length).Distinct().Count() == length) return i + length;
+        static int FindDistinctMarker(string s, int len) {
+            for (int i = len - 1; i < s.Length - len; i++) {
+                if (s.Substring(i, len).Distinct().Count() == len) return i + len;
             }
             return 0;
-        }
+        } 
     }
 }
