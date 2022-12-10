@@ -8,34 +8,30 @@
         static List<List<char>> _crt = new List<List<char>>();
 
         static void Main(string[] args) {
+            // Initialize 
             for (int i = 0; i < 6; i++) _crt.Add(Enumerable.Repeat('.', 40).ToList());
             var input = File.ReadAllLines(@"input.txt");
-
-            
-            foreach (var line in input) {
-                ProcessLine(line);
-            }
-
+            // Process the puzzle input
+            ProcessInput(input);
+            // Part 1 
             var x = GetSignalStrength();
-
             Console.WriteLine($"(Part 1) Sum of signal strengths: {x}");
             Console.WriteLine();
+            // Part 2
             Console.WriteLine($"(Part 2) CRT Render:");
-            foreach (var line in _crt)
-            {
-                Console.WriteLine($"{string.Join("", line)}");
-            }
+            foreach (var line in _crt) Console.WriteLine($"{string.Join("", line)}");
         }
 
-        static void ProcessLine(string line)
-        {
-            if (line.StartsWith("addx")) {
-                var toAdd = int.Parse(line.Split(' ')[1]);
-                NextCycle();
-                NextCycle();
-                _x += toAdd;
+        static void ProcessInput(string[] lines) {
+            foreach (var line in lines) {
+                if (line.StartsWith("addx")) {
+                    var toAdd = int.Parse(line.Split(' ')[1]);
+                    NextCycle();
+                    NextCycle();
+                    _x += toAdd;
+                }
+                else NextCycle();
             }
-            else NextCycle();
         }
 
         static void NextCycle() {
