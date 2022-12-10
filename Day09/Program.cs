@@ -71,7 +71,7 @@
 
         static async Task DrawSnake((int x, int y)[] snake)
         {
-            Thread.Sleep(10);
+            Thread.Sleep(1);
             for (int i = 0; i < snake.Length; i++)
             {
                 
