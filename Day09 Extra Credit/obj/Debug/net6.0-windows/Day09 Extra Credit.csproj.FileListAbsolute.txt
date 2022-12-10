@@ -1,0 +1,21 @@
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\bin\Debug\net6.0-windows\Day09 Extra Credit.exe
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\bin\Debug\net6.0-windows\Day09 Extra Credit.deps.json
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\bin\Debug\net6.0-windows\Day09 Extra Credit.runtimeconfig.json
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\bin\Debug\net6.0-windows\Day09 Extra Credit.dll
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\bin\Debug\net6.0-windows\Day09 Extra Credit.pdb
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.csproj.AssemblyReference.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit_MarkupCompile.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit_MarkupCompile.lref
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.g.resources
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.AssemblyInfoInputs.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.AssemblyInfo.cs
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.csproj.CoreCompileInputs.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.dll
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\refint\Day09 Extra Credit.dll
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.pdb
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\Day09 Extra Credit.genruntimeconfig.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day09 Extra Credit\obj\Debug\net6.0-windows\ref\Day09 Extra Credit.dll
