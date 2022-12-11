@@ -1,0 +1,15 @@
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\bin\Debug\net6.0\Day11.exe
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\bin\Debug\net6.0\Day11.deps.json
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\bin\Debug\net6.0\Day11.runtimeconfig.json
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\bin\Debug\net6.0\Day11.dll
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\bin\Debug\net6.0\Day11.pdb
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.csproj.AssemblyReference.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.AssemblyInfoInputs.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.AssemblyInfo.cs
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.csproj.CoreCompileInputs.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.dll
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\refint\Day11.dll
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.pdb
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\Day11.genruntimeconfig.cache
+C:\Users\starb\source\repos\AdventOfCode2022\Day 11\obj\Debug\net6.0\ref\Day11.dll
