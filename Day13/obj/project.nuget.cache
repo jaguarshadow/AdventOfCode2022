@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6JGqzpZpHOU8kbwjiyTABG+/S6PD94obT+VUwIEyahPWvzxCIq6xAs16M5DCPnLgX4LknWkF2S6sWqGLuWpsHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\starb\\source\\repos\\AdventOfCode2022\\Day13\\Day13.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\starb\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
